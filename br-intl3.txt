@@ -35,7 +35,7 @@ xkb_symbols "ptbr-intl3" {
     key <AD12> { [bracketright, braceright, guillemotright, rightdoublequotemark ] };
 
     key <AC01> { [	   a,          A,        aacute,           Aacute ] };
-    key <AC02> { [	   s,          S,     paragraph,          section ] };
+    key <AC02> { [	   s,          S,       section,        paragraph ] };
     key <AC03> { [	   d,          D,           eth,              ETH ] };
     key <AC04> { [	   f,          F,    ediaeresis,       Ediaeresis ] };
     key <AC05> { [	   g,          G,             g,                G ] };
