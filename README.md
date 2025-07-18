@@ -6,7 +6,7 @@ Considerações preliminares:
   -  Isto se vale do X11/xkb;
   -  Não se "monta sozinho", _i.e._, vc vai precisar mexer no sistema.
 
-<img width="1273" height="400" alt="image" src="https://github.com/user-attachments/assets/4e508694-16b1-42a4-a016-d75081acb971" />
+<img width="1909" height="594" alt="image" src="https://github.com/user-attachments/assets/140d9cc7-ed05-4007-86e6-03e54b7cbda9" />
 
 __________________________________________________________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
