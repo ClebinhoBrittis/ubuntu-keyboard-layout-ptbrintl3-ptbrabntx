@@ -1,5 +1,18 @@
 # ubuntu-keyboard-layout-ptbrintl3
 
+Considerações preliminares:
+
+  -  layout de teclado pt-br intl 3 (algumas pessoas se referem a isso como abnt2, mas não creio ser esse) para ubuntu;
+  -  Isto se vale do X11/xkb;
+  -  Não se "monta sozinho", _i.e._, vc vai precisar mexer no sistema.
+
+<img width="1273" height="400" alt="image" src="https://github.com/user-attachments/assets/4e508694-16b1-42a4-a016-d75081acb971" />
+
+__________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________
+
+Introdução:
+
 layout de teclado pt-br intl 3 (algumas pessoas se referem a isso como abnt2, mas não creio ser esse) para ubuntu
 
 Considerações preliminares (o famoso pode pular):
@@ -7,7 +20,9 @@ Eu escrevi isso em cima do "US, altgr dead keys" ou algo assim, mas não me lemb
 Não sei o suficiente para salvar como layout à parte e comandar, seja pelo console ou pelo gerenciador de configurações, para que seja o layout aplicado.
 Então sugiro que faça o mesmo: Abre o X11/symbols, abre um dos arquivos como BR, PT, US, RU etc e copie o layout abaixo.
 Vou deixar as duas versões: a de "copia e cola" e a que tentei adicionar como layout para quem quiser tentar essa segunda opção.
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________
 
 Funcionamento:
 
@@ -34,7 +49,8 @@ Outros:
   -  altgr+s retorna § e shift+altgr+s retorna ¶
   -  Mudei outras coisas também mas a memória me falha
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________
 
 Implementação:
   1. Fácil:
@@ -113,7 +129,7 @@ Implementação:
   
   2.1  Manualmente abra seu configurador e selecione o layout que estará disponível sob o nome br-intl3
 __________________________________________________________________________________________________________________________________
-__________________________________________________________________________________________________________________________________  
+__________________________________________________________________________________________________________________________________
 
 USO:
 
