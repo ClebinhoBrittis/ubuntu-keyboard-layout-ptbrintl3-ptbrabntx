@@ -30,6 +30,10 @@ A tecla que contém crase e tio funcionará da seguinte forma:
 Outros:
   -  ç no altgr+c e Ç no shift+altgr+c;
   -  ^ como colocador de acento no shift+6 e ^ como acento solto no shift+altgr+6
+  -  altgr+; retorna °
+  -  altgr+s retorna § e shift+altgr+s retorna ¶
+  -  Mudei outras coisas também mas a memória me falha
+
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Implementação:
@@ -66,7 +70,7 @@ Implementação:
     key <AD12> { [bracketright, braceright, guillemotright, rightdoublequotemark ] };
 
     key <AC01> { [	   a,          A,        aacute,           Aacute ] };
-    key <AC02> { [	   s,          S,     paragraph,          section ] };
+    key <AC02> { [	   s,          S,       section,        paragraph ] };
     key <AC03> { [	   d,          D,           eth,              ETH ] };
     key <AC04> { [	   f,          F,    ediaeresis,       Ediaeresis ] };
     key <AC05> { [	   g,          G,             g,                G ] };
@@ -93,8 +97,10 @@ Implementação:
 
     include "level3(ralt_switch)"
 ```
+
   2.Longa
     Cria um novo Layout. Baixe ou copie o br-intl3.txt pra um arquivo de texto. Jogue-o na pasta relevante (```usr/share/X11/xkb/symbols``` provavelmente). Abre o evdev.xml (```/usr/share/X11/xkb/rules/evdev.xml``` ou, no terminal, ```sudo nano /usr/share/X11/xkb/rules/evdev.xml```) e, na seção <layoutList>, copia e cola:
+    
 ```
     <layout>
       <configItem>
@@ -104,10 +110,13 @@ Implementação:
       </configItem>
     </layout>
 ```
+  
   2.1  Manualmente abra seu configurador e selecione o layout que estará disponível sob o nome br-intl3
 __________________________________________________________________________________________________________________________________
 __________________________________________________________________________________________________________________________________  
+
 USO:
+
 EU IMPLORO QUE ALGUÉM FAÇA DISSO UM LAYOUT DE VERDADE E APERFEIÇOE AS FUNÇÕES / TECLAS.
 
 Desde já, agradeços aos futuros reposters que mantiverem isto vivo e a contribuintes que implementem soluções melhores;
