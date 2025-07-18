@@ -26,8 +26,10 @@ A tecla que contém crase e tio funcionará da seguinte forma:
               clique em crase e, logo após, em espaço, para gerar a crase solta (que destrói a foramtação do github, por isso usei só uma vez - não sei formatar este read.me);
     -  ~: colocador de acento, ou seja, clique em shift+crase e, logo após, outra tecla para gerar ã, ẽ, õ etc;
           clique em shift+crase e, logo após, em espaço para gerar ~.
-ç no altgr+c e Ç no shift+altgr+c
-^ como colocador de acento no shift+6 e ^ como acento solto no shift+altgr+6
+     
+Outros:
+  -  ç no altgr+c e Ç no shift+altgr+c;
+  -  ^ como colocador de acento no shift+6 e ^ como acento solto no shift+altgr+6
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Implementação:
