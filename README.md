@@ -99,7 +99,7 @@ Implementação:
 ```
 
   2.Longa
-    Cria um novo Layout. Baixe ou copie o br-intl3.txt pra um arquivo de texto. Jogue-o na pasta relevante (```usr/share/X11/xkb/symbols``` provavelmente). Abre o evdev.xml (```/usr/share/X11/xkb/rules/evdev.xml``` ou, no terminal, ```sudo nano /usr/share/X11/xkb/rules/evdev.xml```) e, na seção <layoutList>, copia e cola:
+    Cria um novo Layout. Baixe ou copie o br-intl3.txt pra um arquivo de texto. Jogue-o na pasta relevante (```usr/share/X11/xkb/symbols``` provavelmente). Abre o evdev.xml (```/usr/share/X11/xkb/rules/evdev.xml``` ou, no terminal, ```sudo nano /usr/share/X11/xkb/rules/evdev.xml```) e, na seção `<layoutList>`, copia e cola:
     
 ```
     <layout>
