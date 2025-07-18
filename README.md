@@ -56,7 +56,6 @@ Implementação:
   1. Fácil:
     Copie e cole em cima de outro layout, de forma a substituir as teclas (o que eu fiz com um dos layouts pra US):
 ```
-    name[Group1]= "Portuguese (Brazil, INTL 3)";
 
     key <TLDE> { [dead_grave, dead_tilde,     grave,       asciitilde ] };
     key <AE01> { [	   1,     exclam,    exclamdown,      onesuperior ] };
@@ -111,7 +110,6 @@ Implementação:
 
     key <LSGT> { [ backslash,   bar,            backslash,      bar ] };
 
-    include "level3(ralt_switch)"
 ```
 
   2.Longa
