@@ -47,6 +47,7 @@ Outros:
   -  ^ como colocador de acento no shift+6 e ^ como acento solto no shift+altgr+6
   -  altgr+; retorna °
   -  altgr+s retorna § e shift+altgr+s retorna ¶
+  -  altgr+a retorna ª e altgr+o retorna º
   -  Mudei outras coisas também mas a memória me falha
 
 __________________________________________________________________________________________________________________________________
@@ -79,12 +80,12 @@ Implementação:
     key <AD06> { [	   y,          Y,    udiaeresis,       Udiaeresis ] };
     key <AD07> { [	   u,          U,        uacute,           Uacute ] };
     key <AD08> { [	   i,          I,        iacute,           Iacute ] };
-    key <AD09> { [	   o,          O,        oacute,           Oacute ] };
+    key <AD09> { [	   o,          O,  ordmasculine,           Oacute ] };
     key <AD10> { [	   p,          P,    odiaeresis,       Odiaeresis ] };
     key <AD11> { [ bracketleft,  braceleft,  guillemotleft, leftdoublequotemark ] };
     key <AD12> { [bracketright, braceright, guillemotright, rightdoublequotemark ] };
 
-    key <AC01> { [	   a,          A,        aacute,           Aacute ] };
+    key <AC01> { [	   a,          A,   ordfeminine,           Aacute ] };
     key <AC02> { [	   s,          S,       section,        paragraph ] };
     key <AC03> { [	   d,          D,           eth,              ETH ] };
     key <AC04> { [	   f,          F,    ediaeresis,       Ediaeresis ] };
@@ -93,13 +94,13 @@ Implementação:
     key <AC07> { [	   j,          J,    idiaeresis,       Idiaeresis ] };
     key <AC08> { [	   k,          K,            oe,               OE ] };
     key <AC09> { [	   l,          L,        oslash,           Oslash ] };
-    key <AC10> { [ semicolon,      colon,    degree,           ssharp ] };
+    key <AC10> { [ semicolon,      colon,    degree,      ordfeminine ] };
     key <AC11> { [dead_acute,dead_diaeresis,apostrophe,      quotedbl ] };
 
     key <AB01> { [	   z,          Z,            ae,               AE ] };
     key <AB02> { [	   x,          X, periodcentered,     dead_stroke ] };
     key <AB03> { [	   c,          C,      ccedilla,         Ccedilla ] };
-    key <AB04> { [	   v,          V,             v,                V ] };
+    key <AB04> { [	   v,          V,        ssharp,                V ] };
     key <AB05> { [	   b,          B,             b,                B ] };
     key <AB06> { [	   n,          N,        ntilde,           Ntilde ] };
     key <AB07> { [	   m,          M,            mu,        plusminus ] };
